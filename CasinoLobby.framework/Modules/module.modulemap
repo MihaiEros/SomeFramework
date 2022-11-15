@@ -1,0 +1,11 @@
+framework module CasinoLobby {
+  umbrella header "CasinoLobby.h"
+
+  export *
+  module * { export * }
+}
+
+module CasinoLobby.Swift {
+  header "CasinoLobby-Swift.h"
+  requires objc
+}
